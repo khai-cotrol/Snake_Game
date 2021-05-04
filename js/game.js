@@ -38,7 +38,6 @@ class game {
         this.food.draw();
 
     }
-  n
 }
 
 let a = new game();
