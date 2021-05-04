@@ -68,6 +68,7 @@ class snake {
         });
     }
 
+
     eat(x, y) {
         if (this.x == x && this.y == y) {
             this.maxCells++;
@@ -76,9 +77,7 @@ class snake {
         }
         return false;
 
-
     }
-
 
     endGame() {
         for (let i = 1; i < this.cell.length; i++) {
